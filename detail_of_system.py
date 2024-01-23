@@ -103,7 +103,7 @@ if start == 'yes':
 # network speed 
     try:
         network_speed_upload,network_speed_download = check_internet_speed()
-        print(f"\n'='*5, 'The speed of network used in system is', '='*5")
+        print(f"\n {'='*5}, The speed of network used in system is, {'='*5}")
         print(f'The upload speed of internet on this device is {network_speed_upload} MB \n and download speed is {network_speed_download} MB')
     except:
         print("Was unable to get Internet speed")
